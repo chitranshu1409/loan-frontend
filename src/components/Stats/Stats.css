@@ -1,0 +1,10 @@
+.stats-title{
+    @media (max-width:768px) {
+        font-size: 0.6rem;
+    }
+}
+.stats-value{
+    @media (max-width:768px) {
+        font-size: 1.8rem;
+    }
+}
