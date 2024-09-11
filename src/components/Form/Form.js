@@ -22,7 +22,7 @@ const Form = () => {
     const handelSubmit = (e) => {
         e.preventDefault()
         
-        axios.post('http://localhost:4000/ContactUs', { FirstName, LastName, Email, PhoneNo, Occupation, LoanAmount,LoanType,AnnualIncome })
+        axios.post('https://loan-backend-5.onrender.com/ContactUs', { FirstName, LastName, Email, PhoneNo, Occupation, LoanAmount,LoanType,AnnualIncome })
        .then(response => {
             console.log(response)
             
